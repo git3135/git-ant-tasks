@@ -9,7 +9,7 @@
         <pathelement location="lib/jsch-0.1.49.jar"/>
     </path>
 
-    <taskdef resource="com/scalepoint/git/ant/git-ant-tasks.properties">
+    <taskdef resource="com/sergeyboguckiy/git/ant/git-ant-tasks.properties">
         <classpath>
             <pathelement location="artifact/ant-git-tasks.jar"/>
             <path refid="jgit-libs"/>
